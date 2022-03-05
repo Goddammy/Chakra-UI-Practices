@@ -22,7 +22,7 @@ import { IconName, ImGithub, ImLocation, ImTwitter } from 'react-icons/im';
 
 function Home() {
   return (
-    <VStack spacing="0" mx="20%">
+    <VStack spacing="0" mx="20%" mb="50px">
       <VStack
         color="white"
         fontFamily="times-new-roman"
