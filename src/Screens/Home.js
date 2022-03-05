@@ -22,23 +22,24 @@ import { IconName, ImGithub, ImLocation, ImTwitter } from 'react-icons/im';
 
 function Home() {
   return (
-    <VStack spacing="0">
+    <VStack spacing="0" mx="20%">
       <VStack
         color="white"
         fontFamily="times-new-roman"
         w="100%"
         bg="blue.600"
         p="16px"
+        mb="0"
       >
-        <Text fontSize="80px" pt="20px">
+        <Text fontSize="60px" pt="15px">
           BABAJIDE KEHINDE
         </Text>
-        <Text fontSize={'36px'} fontStyle={'italic'} pb="20px">
+        <Text fontSize={'24px'} fontStyle={'italic'} pb="20px">
           SOFTWARE ENGINEER
         </Text>
       </VStack>
-      <HStack w="full">
-        <Stack w="34%" bg="gray.50" pt="50px" pr="1em">
+      <Stack w="full" direction="row">
+        <Stack w="32%" bg="gray.50" pt="20px" pr="1em">
           {/*  */}
           <VStack alignItems={'end'}>
             <Heading fontSize={'2xl'}>CONTACT</Heading>
@@ -115,7 +116,7 @@ function Home() {
             <Heading fontSize={'2xl'} mt="30px">
               CERTIFICATES
             </Heading>
-            <VStack alignItems={'end'}>
+            <VStack alignItems={'end'} textAlign="end">
               <Text fontWeight={'bold'} mt="20px">
                 FREECODECAMP
               </Text>
@@ -128,85 +129,86 @@ function Home() {
             </VStack>
           </VStack>
         </Stack>
-        <VStack w="66%" alignSelf="start" alignItems="start">
-          <Heading fontSize={'2xl'} mt="15px" ml="30px" pt="35px">
+        <VStack w="68%" alignSelf="start" alignItems="start">
+          <Heading fontSize={'2xl'} ml="20px" pt="20px">
             CAREER OBJECTIVE
           </Heading>
-          <Text pl="30px">
-            I am an insightful and diligent IT Professional with with less than
-            a year experience as a software developer, I am very comfortable
-            using React.js, Chakra UI and Bootstrap styling. I have a strong
-            desire to make a positive impact in any organization. I have
-            excellent reputation for learning very fast, willing to learn,
-            unlearn and relearn while delivering effective services.
+          <Text pl="20px">
+            I am a dedicated Software Engineer and Project Manager with about a
+            year coding and project management experience. I am proficient in
+            React, while using strict CSS, Bootstrap and Chakra UI to style. I
+            am an ardent tech enthusiast; consequently, I am always willing to
+            learn new technologies in my field and, maybe, outside of it.
           </Text>
-          <VStack pl="28px" alignItems="start">
+          <VStack pl="20px" alignItems="start">
             <Heading fontSize={'2xl'} mt="15px" pt="35px">
               WORK EXPERIENCE
             </Heading>
 
-            <VStack pl="28px" alignItems="start" >
-            <Text fontWeight = 'bold'>Frontend Developer</Text>
-            <Text>ITSkillscenter</Text>
-            <Text>Ocotber, 2021 - Present</Text>
-            <UnorderedList pl = "30px">
-              <ListItem>
-                Assistedinconverting anoldwebsite (https://eespace.com.ng)tonew
-                (https://staging.eespace.com.ng
-              </ListItem>
-              <ListItem>
-                Building both desktop and mobile friendly interface web apps
-              </ListItem>
-              <ListItem>
-                Review codes and ensure quality ofdesigns and implementations,
-                and advocating clarity within the team
-              </ListItem>
-              <ListItem>Consumption of API’s</ListItem>            
-            </UnorderedList>
+            <VStack pl="28px" alignItems="start">
+              <Text fontWeight="bold">Frontend Developer</Text>
+              <Text>ITSkillscenter</Text>
+              <Text>Ifako-Agege, Lagos</Text>
+              <Text>Ocotber, 2021 - Present</Text>
+              <UnorderedList pl="30px">
+                <ListItem>
+                  Assisted in converting an old website (https://eespace.com.ng)
+                  to new (https://staging.eespace.com.ng)
+                </ListItem>
+                <ListItem>
+                  Building both desktop and mobile friendly web apps
+                </ListItem>
+                <ListItem>
+                  Review codes and ensure quality of designs and
+                  implementations, and advocating clarity within the team
+                </ListItem>
+                <ListItem>Consumption of API’s</ListItem>
+              </UnorderedList>
             </VStack>
 
-            <VStack alignItems="start" pt= "20px" pl = "25px">
-            <Text fontWeight = 'bold' >Frontend Developer</Text>
-            <Text>ITSkillscenter</Text>
-            <Text>Ocotber, 2021 - Present</Text>
-            <UnorderedList pl = "30px">
-              <ListItem>
-                Assistedinconverting anoldwebsite (https://eespace.com.ng)tonew
-                (https://staging.eespace.com.ng
-              </ListItem>
-              <ListItem>
-                Building both desktop and mobile friendly interface web apps
-              </ListItem>
-              <ListItem>
-                Review codes and ensure quality ofdesigns and implementations,
-                and advocating clarity within the team
-              </ListItem>
-              <ListItem>Consumption of API’s</ListItem>            
-            </UnorderedList>
+            <VStack pl="28px" alignItems="start">
+              <Text fontWeight="bold">Junior Project Manager</Text>
+              <Text>ITSkillscenter</Text>
+              <Text>Ifako-Agege, Lagos</Text>
+              <Text>Ocotber, 2021 - Present</Text>
+              <UnorderedList pl="30px">
+                <ListItem>
+                  Assisted in managing the Livevend website from start to finish
+                </ListItem>
+                <ListItem>
+                  Assisted in managing the Fricasa website from start to finish
+                </ListItem>
+              </UnorderedList>
             </VStack>
-            
-            <VStack alignItems="start" pt= "20px" pl = "25px">
-            <Text fontWeight = 'bold' >Frontend Developer</Text>
-            <Text>ITSkillscenter</Text>
-            <Text>Ocotber, 2021 - Present</Text>
-            <UnorderedList pl = "30px">
-              <ListItem>
-                Assistedinconverting anoldwebsite (https://eespace.com.ng)tonew
-                (https://staging.eespace.com.ng
-              </ListItem>
-              <ListItem>
-                Building both desktop and mobile friendly interface web apps
-              </ListItem>
-              <ListItem>
-                Review codes and ensure quality ofdesigns and implementations,
-                and advocating clarity within the team
-              </ListItem>
-              <ListItem>Consumption of API’s</ListItem>            
-            </UnorderedList>
+
+            <VStack alignItems="start" pt="20px" pl="25px">
+              <Text fontWeight="bold">Regional Sales Manager</Text>
+              <Text>His Divine Glory Enterprises</Text>
+              <Text>Ikorodu, Lagos</Text>
+              <Text>October, 2015 - September, 2021</Text>
+              <UnorderedList pl="30px">
+                <ListItem>
+                  Helped in expanding sales of cement to Imota, Ikorodu; an entirely new region.
+                </ListItem>
+                <ListItem>
+                  Drove sales to 200% in my first six months.
+                </ListItem>
+              </UnorderedList>
+            </VStack>
+
+            <VStack alignItems="start" pt="20px" pl="25px">
+              <Text fontWeight="bold">Junior IT Support</Text>
+              <Text>Jaminem Concepts</Text>
+              <Text>Ijebu-Ode, Ogun State</Text>
+              <Text>June 2012 - December 2013</Text>
+              <UnorderedList pl="30px">
+                <ListItem>Network, software and hardware maintenance</ListItem>
+                <ListItem>Network troubleshooting</ListItem>
+              </UnorderedList>
             </VStack>
           </VStack>
         </VStack>
-      </HStack>
+      </Stack>
     </VStack>
   );
 }
