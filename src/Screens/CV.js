@@ -18,11 +18,11 @@ import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { HiMail } from 'react-icons/hi';
 import { FaPhone } from 'react-icons/fa';
-import { IconName, ImGithub, ImLocation, ImTwitter } from 'react-icons/im';
+import { IconName, ImGithub, ImLinkedin, ImLocation, ImTwitter } from 'react-icons/im';
 
-function Home() {
+function CV() {
   return (
-    <VStack spacing="0" mx="20%" mb="50px">
+    <VStack spacing="0" mx="20%" mb="50px" >
       <VStack
         color="white"
         fontFamily="times-new-roman"
@@ -78,6 +78,14 @@ function Home() {
               </Flex>
               <Flex alignItems={'center'}>
                 <Text pb="4px" mr="5px">
+                  <Link>LinkedIn</Link>{' '}
+                </Text>{' '}
+                <Box>
+                  <ImLinkedin color="#CBD5E0" />
+                </Box>
+              </Flex>
+              <Flex alignItems={'center'}>
+                <Text pb="4px" mr="5px">
                   <Link>Github</Link>{' '}
                 </Text>{' '}
                 <Box>
@@ -93,7 +101,7 @@ function Home() {
             <VStack alignItems={'end'}>
               <Text pb="4px">Bachelor of Science</Text>
               <Text pb="4px">Computer Science</Text>
-              <Text pb="4px">Tai-Solarin University of Education</Text>
+              <Text pb="4px"textAlign={"end"}>Tai-Solarin University of Education</Text>
               <Text pb="4px">Ijebu-Ode, Oggun State</Text>
               <Text pb="4px">2010-2015</Text>
             </VStack>
@@ -213,4 +221,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default CV;
